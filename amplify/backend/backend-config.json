@@ -1,1 +1,9 @@
-{}
+{
+  "function": {
+    "amplifyreactappcryptf4e9b4cf": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}
