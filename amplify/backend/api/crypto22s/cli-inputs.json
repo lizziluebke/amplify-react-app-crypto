@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/coins": {
+      "name": "/coins",
+      "lambdaFunction": "amplifyreactappcryptf4e9b4cf",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
