@@ -10,6 +10,14 @@
       "StackName": "amplify-amplifyreactappcrypt-dev-193312",
       "StackId": "arn:aws:cloudformation:us-east-2:085907470738:stack/amplify-amplifyreactappcrypt-dev-193312/24824820-d18b-11ec-b47f-02f1b945e5e2",
       "AmplifyAppId": "d3hl0zwrzgbw56"
+    },
+    "categories": {
+      "function": {
+        "amplifyreactappcryptf4e9b4cf": {
+          "deploymentBucketName": "amplify-amplifyreactappcrypt-dev-193312-deployment",
+          "s3Key": "amplify-builds/amplifyreactappcryptf4e9b4cf-7051782b2f474e395644-build.zip"
+        }
+      }
     }
   }
 }
