@@ -63,6 +63,23 @@ app.get('/coins', function(req, res) {
   });
 });
 
+app.get(
+  "/born"
+  , async (req, res) => {
+    try {
+    const data = await axios.get("https://api.github.com/users/lizziluebke"); 
+      res.json({
+        bornOnInfo: data.data
+      });
+    }
+     catch (err) {
+       res.json({
+         error: err
+       })
+     }
+  }
+);
+
 app.get('/item', function(req, res) {
   // Add your code here
   res.json({success: 'get call succeed!', url: req.url});
@@ -72,6 +89,8 @@ app.get('/item/*', function(req, res) {
   // Add your code here
   res.json({success: 'get call succeed!', url: req.url});
 });
+
+
 
 /****************************
 * Example post method *
